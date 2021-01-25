@@ -1,0 +1,22 @@
+{
+    "description": "A rich history viewer",
+    "homepage_url": "https://github.com/cbroms/rich-history-extension",
+    "manifest_version": 2,
+    "name": "History Viewer",
+    "permissions": [
+        "theme",
+        "webNavigation",
+        "tabs"
+    ],
+    "sidebar_action": {
+        "default_title": "History Viewer",
+        "default_panel": "index.html"
+    },
+    "version": "1.0",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "rich-history-viewer@rainflame.com",
+            "strict_min_version": "58.0a1"
+        }
+    }
+}
